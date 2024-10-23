@@ -3,9 +3,10 @@ this project support load multi plane for mutiagent RL and can be rendered using
 
 ## environment  
 you can use environment.yml or requirements.txt to install conda virtual environment.  
-"""conda install --yes --file requirements.txt  
-"""
+'''
+conda install --yes --file requirements.txt  
+'''
 or  
-"""
+'''
 conda env create -f environment.yml
-"""
+'''

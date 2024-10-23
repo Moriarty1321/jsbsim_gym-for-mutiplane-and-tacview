@@ -1,0 +1,54 @@
+name: gym_jsbsim
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - defaults
+dependencies:
+  - ca-certificates=2024.7.2=haa95532_0
+  - openssl=1.1.1w=h2bbff1b_0
+  - python=3.9.7=h6244533_1
+  - sqlite=3.45.3=h2bbff1b_0
+  - tzdata=2024a=h04d1e81_0
+  - vc=14.40=h2eaa2aa_0
+  - vs2015_runtime=14.40.33807=h98bb1dd_0
+  - wheel=0.43.0=py39haa95532_0
+  - pip:
+    - absl-py==2.1.0
+    - cloudpickle==3.0.0
+    - contourpy==1.3.0
+    - cycler==0.12.1
+    - filelock==3.15.4
+    - fonttools==4.53.1
+    - fsspec==2024.9.0
+    - glcontext==3.0.0
+    - grpcio==1.66.1
+    - gym==0.21.0
+    - gym-notices==0.0.8
+    - importlib-metadata==8.4.0
+    - importlib-resources==6.4.4
+    - jinja2==3.1.4
+    - jsbsim==1.2.1
+    - kiwisolver==1.4.7
+    - markdown==3.7
+    - markupsafe==2.1.5
+    - matplotlib==3.9.2
+    - moderngl==5.11.1
+    - mpmath==1.3.0
+    - networkx==3.2.1
+    - numpy==1.26.0
+    - packaging==24.1
+    - pillow==10.4.0
+    - protobuf==5.28.0
+    - pygame==2.6.0
+    - pyparsing==3.1.4
+    - python-dateutil==2.9.0.post0
+    - scipy==1.13.1
+    - six==1.16.0
+    - sympy==1.13.2
+    - tensorboard==2.17.1
+    - tensorboard-data-server==0.7.2
+    - torch==2.4.1
+    - typing-extensions==4.12.2
+    - werkzeug==3.0.4
+    - zipp==3.20.1
+prefix: D:\ANACONDA\envs\gym_jsbsim

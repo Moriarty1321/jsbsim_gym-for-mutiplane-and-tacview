@@ -24,8 +24,6 @@ obs = env.reset()
 done = False
 log_path = path.join(path.abspath(path.dirname(__file__)), 'logs')
 
-# import pdb
-# pdb.set_trace()
 i = 0
 while not done:
     action = [[1,1,1],[1,-1,1],[1,0,0],[1,1,1]]
@@ -35,3 +33,26 @@ while not done:
     env.render_tacview()
 env.close()
 ```
+and in jsbsim_gym.py class JSBSimEnv(gym.Env), we can load multiple planes  
+```
+for i in range(self.num_agent):
+
+    plane_list.append(jsbsim.FGFDMExec(root, None))
+    plane_list[i].set_debug_level(0)
+
+    # Load F-16 model and set initial conditions
+    plane_list[i].load_model('f16')
+    self._set_initial_conditions(plane_list[i], v, height)
+    plane_list[i].run_ic()
+    height += 500
+
+self.simulation = plane_list
+```
+every single jsbsim.FGFDMExec(root,None) is a plane class, I put these planes in a list self.simulation for using, you can set initial velocity and height by using self._set_initial_conditions  
+
+## render
+you can use following code to render your plane by .acmi file through tacview.  
+```
+env.render_tacview()
+```
+

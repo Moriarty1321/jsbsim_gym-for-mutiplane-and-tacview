@@ -4,7 +4,7 @@ this project support load multi plane for mutiagent RL and can be rendered using
 ## todo list
 -1 use a config json to create multiple plane and initial conditions  
 -2 use rl algorithm to train an agent to fly stably  
--3 add missle module
+-3 add missle module  
 -4 apply hierachical rl structure using this simulator
 
 

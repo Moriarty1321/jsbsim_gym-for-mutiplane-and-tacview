@@ -1,4 +1,4 @@
-# jsbsim_gym-for-mutiplane-and-tacview  
+# jsbsim_gym-for-hier-RL-and-tacview用于强化学习以及tacview可视化的jsbism_gym  
 项目特点：  
 1.将jsbsim包装成gym格式方便与强化学习算法对接，支持多架飞机，支持用tacview可视化  
 2.该项目是一个业务逻辑上的分层框架，上层智能调用下层智能体，目前下层为规则智能体，上层为dqn算法，根据当前态势选择调用下层三个规则智能体的一个，当然你也可以利用该环境训练自己的下层智能体  
